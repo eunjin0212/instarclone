@@ -1,0 +1,18 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.status-bar__box {
+  display: flex;
+}
+.status-bar__signal div {
+  position: fixed;
+  display: flex;
+}
+.status-bar__signal + .status-bar__signal {
+  margin-left: 10px;
+}
+.status-bar__time {
+  font-weight: 600;
+}
