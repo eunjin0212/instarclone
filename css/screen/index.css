@@ -108,7 +108,9 @@
 }
 
 .main__feed-other-post {
+  display: flex;
   padding: 10px 0px;
+  justify-content: center;
 }
 .main__feed-other-post img {
   max-width: 100%;
