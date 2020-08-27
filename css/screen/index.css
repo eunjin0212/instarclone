@@ -1,6 +1,3 @@
-.header {
-  background-color: #fafafa;
-}
 .header__top {
   display: flex;
   padding: 0px 25px;
@@ -17,6 +14,12 @@
 .header__top i {
   font-size: 25px;
 }
+.header {
+  background-color: #fafafa;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 .main__instarstory-me-all {
   display: flex;
   position: relative;
@@ -25,7 +28,7 @@
 }
 .main__instarstory {
   display: flex;
-  margin-top: 15px;
+  padding-top: 90px;
   overflow: scroll;
   margin-bottom: 10px;
   border-bottom: 1px solid #dfdfdf;
@@ -132,6 +135,12 @@
 .heart:hover .blank,
 .heart .fillheart {
   display: none;
+}
+.heart:active .fillheart,
+.books:active .fillbookk,
+small-heart:active .fillheart {
+  display: inline;
+  color: #ed4956;
 }
 .books:hover .fillbookk,
 .small-heart:hover .fillheart,
