@@ -27,11 +27,12 @@
   border-style: none;
   color: #a1a1a4;
   padding-left: 40px;
+  position: relative;
 }
 .input-icons i {
   position: absolute;
   left: 35px;
-  bottom: 76px;
+  bottom: 88px;
   color: #a1a1a4;
 }
 .header__find-top-bottom {
