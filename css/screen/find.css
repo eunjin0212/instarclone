@@ -1,74 +1,14 @@
-.find-header {
-  padding-bottom: 8px;
-}
-.header__find-top {
-  display: flex;
-  padding: 10px 25px 20px;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-.header__find-top div:first-child {
-  display: flex;
-  justify-content: flex-start;
-  width: 90%;
-}
-.header__find-top div:last-child {
-  display: flex;
-  justify-content: flex-end;
-  width: 10%;
-}
-.input-icons input {
-  text-align: start;
-  width: 100%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: #efefef;
-  border-style: none;
-  color: #a1a1a4;
-  padding-left: 40px;
-  position: relative;
-}
-.input-icons i {
-  position: absolute;
-  left: 35px;
-  bottom: 88px;
-  color: #a1a1a4;
-}
-.header__find-top-bottom {
-  overflow: scroll;
-  display: flex;
-  width: auto;
-}
-.header__find-top-category {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #dbdbdb;
-  padding: 3px 20px;
-  margin: 0px 4px;
-  border-radius: 15%;
-  background-color: white;
-  white-space: nowrap;
-}
-.header__find-top-category i {
-  font-size: 7px;
-}
-.header__find-top-bottom::-webkit-scrollbar {
-  background: transparent;
-}
 .find__main {
-  padding-top: 150px;
+  padding: 135px 0px 70px;
   overflow: auto;
 }
+.find__main-img-second,
 .find__main-img {
   display: flex;
   width: 100%;
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: center;
-  margin: 0px;
 }
 .find__main-small {
   width: 33%;
@@ -76,14 +16,8 @@
 .find__main-large {
   width: 66.5%;
 }
+.find__main-large img,
 .find__main-small img {
   max-width: 100%;
   max-height: 100%;
-}
-.find__main-large img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.find__main-img-second {
-  display: flex;
 }

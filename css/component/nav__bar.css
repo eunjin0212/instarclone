@@ -1,9 +1,9 @@
 .nav__bar-fix {
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
   background-color: #fafafa;
-  bottom: -1px;
+  bottom: 0px;
 }
 .nav__bar {
   display: flex;

@@ -10,6 +10,7 @@
 @import "component/status-bar.css";
 @import "component/notification.css";
 @import "component/nav__bar.css";
+@import "component/header.css";
 
 /* screen */
 
@@ -30,5 +31,4 @@ body {
 }
 main {
   bottom: 0px;
-  padding-bottom: 60px;
 }

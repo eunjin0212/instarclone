@@ -1,31 +1,10 @@
-.header__top {
-  display: flex;
-  padding: 0px 25px 10px;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #b0b0b0;
-}
-.header__font {
-  font-family: "Cookie", cursive;
-  font-size: 40px;
-  font-weight: 600;
-}
-.header__top i {
-  font-size: 25px;
-}
-.header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  background-color: #fafafa;
-}
 .main__instarstory-me {
   justify-content: center;
   margin: 10px;
 }
 .main__instarstory {
   display: flex;
-  padding-top: 90px;
+  padding-top: 95px;
   overflow: scroll;
   margin-bottom: 10px;
   border-bottom: 1px solid #dfdfdf;
