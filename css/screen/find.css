@@ -51,6 +51,9 @@
   background-color: white;
   white-space: nowrap;
 }
+.header__find-top-category i {
+  font-size: 10px;
+}
 .header__find-top-bottom::-webkit-scrollbar {
   background: transparent;
 }
