@@ -1,9 +1,8 @@
 .header__top {
   display: flex;
-  padding: 0px 25px;
+  padding: 0px 25px 10px;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
   border-bottom: 1px solid #b0b0b0;
 }
 .header__font {
@@ -15,15 +14,13 @@
   font-size: 25px;
 }
 .header {
-  background-color: #fafafa;
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: #fafafa;
 }
-.main__instarstory-me-all {
-  display: flex;
-  position: relative;
-  text-align: center;
+.main__instarstory-me {
+  justify-content: center;
   margin: 10px;
 }
 .main__instarstory {
@@ -32,6 +29,7 @@
   overflow: scroll;
   margin-bottom: 10px;
   border-bottom: 1px solid #dfdfdf;
+  position: relative;
 }
 .main__instarstory-me,
 .main__instarstory-other {
@@ -205,5 +203,78 @@ small-heart:active .fillheart {
   font-weight: bold;
   margin-right: 5px;
 }
-.who-like__comment-text {
+/* 
+#splash-screen__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 50px;
 }
+#splash-screen__icon i {
+  background: -webkit-radial-gradient(
+    33% 100% circle,
+    #fed373 10%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 10%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#splash-screen__text-face {
+  background: -webkit-radial-gradient(
+    33% 100% circle,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#splash-screen__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#splash-screen__text div:first-child {
+  color: #b2b2b2;
+}
+@keyframes splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  height: 1000vh;
+  width: 1005;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  animation-name: splash;
+  animation: 1s ease-in-out forwards;
+  animation-delay: 3s;
+} */

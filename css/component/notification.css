@@ -8,9 +8,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 40px;
-  bottom: 20px;
-}
-.blue-notification span {
+  left: 48px;
+  top: 135px;
   color: white;
 }

@@ -1,0 +1,23 @@
+.nav__bar-fix {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: #fafafa;
+  bottom: 0px;
+}
+.nav__bar {
+  display: flex;
+  padding: 0px 25px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #b0b0b0;
+}
+.nav__bar i {
+  font-size: 25px;
+}
+.nav__bar img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

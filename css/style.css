@@ -9,11 +9,13 @@
 
 @import "component/status-bar.css";
 @import "component/notification.css";
-@import "component/splash-screen.css";
+@import "component/nav__bar.css";
 
 /* screen */
 
+@import "screen/splash-screen.css";
 @import "screen/index.css";
+@import "screen/find.css";
 
 body {
   padding: 0px;
@@ -23,4 +25,7 @@ body {
 .main-screen {
   font-family: "Open Sans", sans-serif;
   padding: 0px 25px;
+}
+main {
+  padding-bottom: 60px;
 }
