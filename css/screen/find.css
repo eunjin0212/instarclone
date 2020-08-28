@@ -36,7 +36,6 @@
 }
 .header__find-top-bottom {
   overflow: scroll;
-
   display: flex;
   width: auto;
 }
@@ -50,6 +49,10 @@
   margin: 0px 4px;
   border-radius: 15%;
   background-color: white;
+  white-space: nowrap;
+}
+.header__find-top-bottom::-webkit-scrollbar {
+  background: transparent;
 }
 .find__main {
   padding-top: 150px;
