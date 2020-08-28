@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 3;
   background-color: #fafafa;
-  bottom: 0px;
+  bottom: -1px;
 }
 .nav__bar {
   display: flex;

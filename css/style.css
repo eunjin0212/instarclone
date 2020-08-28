@@ -16,16 +16,19 @@
 @import "screen/splash-screen.css";
 @import "screen/index.css";
 @import "screen/find.css";
+@import "screen/activity.css";
 
 body {
   padding: 0px;
   margin: 0px;
   height: auto;
+  bottom: 0px;
 }
 .main-screen {
   font-family: "Open Sans", sans-serif;
   padding: 0px 25px;
 }
 main {
+  bottom: 0px;
   padding-bottom: 60px;
 }
