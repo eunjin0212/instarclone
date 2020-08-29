@@ -11,6 +11,7 @@
 @import "component/notification.css";
 @import "component/nav__bar.css";
 @import "component/header.css";
+@import "component/circle.css";
 
 /* screen */
 
@@ -18,6 +19,7 @@
 @import "screen/index.css";
 @import "screen/find.css";
 @import "screen/activity.css";
+@import "screen/profile.css";
 
 body {
   padding: 0px;
